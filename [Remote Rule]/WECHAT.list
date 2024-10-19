@@ -1,7 +1,7 @@
 #微信分流
 
-AND,((DOMAIN,www.weixin.qq.com),(AND,((DEST-PORT,0))))
-AND,((DOMAIN,hklong.weixin.qq.com),(AND,(((DEST-PORT,0),(DEST-PORT,80),(DEST-PORT,443))))
-AND,((DOMAIN,hkminorshort.weixin.qq.com),(AND,((DEST-PORT,0),(DEST-PORT,80),(DEST-PORT,443))))
-AND,((DOMAIN,hkshort.weixin.qq.com),(AND,((DEST-PORT,0),(DEST-PORT,80))))
+AND,((DOMAIN,www.weixin.qq.com),(DEST-PORT,80))
+AND,((DOMAIN,hklong.weixin.qq.com),(OR,(((DEST-PORT,80),(DEST-PORT,443)))
+AND,((DOMAIN,hkminorshort.weixin.qq.com),(OR,((DEST-PORT,80),(DEST-PORT,443))))
+AND,((DOMAIN,hkshort.weixin.qq.com),(OR,((DEST-PORT,0),(DEST-PORT,80))))
 AND,((DOMAIN,hkextshort.weixin.qq.com),(OR,((DEST-PORT,0),(DEST-PORT,80))))
