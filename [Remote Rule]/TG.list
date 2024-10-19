@@ -1,0 +1,2 @@
+AND,((IP-CIDR,91.108.56.117/32,no-resolve),(DEST-PORT,443))
+AND,((IP-CIDR,149.154.167.151/32,no-resolve),(DEST-PORT,443))
