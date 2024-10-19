@@ -1,0 +1,3 @@
+#微信分流
+
+AND,((DOMAIN,hklong.weixin.qq.com),(AND,((DEST-PORT,80),(DEST-PORT,443))))
