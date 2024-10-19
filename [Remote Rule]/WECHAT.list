@@ -1,6 +1,10 @@
 #微信分流
 
 #AND,((DOMAIN,www.weixin.qq.com),(DEST-PORT,80))
-AND,((DOMAIN,hklong.weixin.qq.com),(OR,((DEST-PORT,80),(DEST-PORT,443))))
+#AND,((DOMAIN,hklong.weixin.qq.com),(OR,((DEST-PORT,80),(DEST-PORT,443))))
 AND,((DOMAIN,hkshort.weixin.qq.com),(DEST-PORT,80))
 AND,((DOMAIN,hkextshort.weixin.qq.com),(DEST-PORT,80))
+
+AND,((IP-CIDR,43.129.138.213/32,no-resolve),(DEST-PORT,8080))
+AND,((IP-CIDR,43.129.139.99/32,no-resolve),(DEST-PORT,8080))
+AND,((IP-CIDR,43.159.235.98/32,no-resolve),(DEST-PORT,8080))
