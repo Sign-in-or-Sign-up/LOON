@@ -1,0 +1,3 @@
+AND,((DOMAIN,hkextshort.weixin.qq.com),(OR,((DEST-PORT,0),(DEST-PORT,80)))),DIRECT
+AND,((DOMAIN,hkshort.weixin.qq.com),(OR,((DEST-PORT,0),(DEST-PORT,80)))),DIRECT
+AND,((DOMAIN,hklong.weixin.qq.com),(OR,((DEST-PORT,0),(DEST-PORT,80),(DEST-PORT,443)))),DIRECT
