@@ -1,1 +1,2 @@
 AND,((DOMAIN,api.weibo.cn),(OR,((DEST-PORT,0),(DEST-PORT,443))))
+DOMAIN,api.weibo.cn
