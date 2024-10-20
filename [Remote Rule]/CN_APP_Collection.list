@@ -33,5 +33,5 @@ DOMAIN,wx2.sinaimg.cn
 DOMAIN,wx3.sinaimg.cn
 DOMAIN,wx4.sinaimg.cn
 ##视频
-AND,((DOMAIN,f.video.weibocdn.com),(DEST-PORT,80))
-DOMAIN,f.video.weibocdn.com
+#AND,((DOMAIN,f.video.weibocdn.com),(DEST-PORT,80))
+#DOMAIN,f.video.weibocdn.com
