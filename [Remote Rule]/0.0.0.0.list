@@ -9,6 +9,7 @@ IP-CIDR,7.0.0.0/8,REJECT-DROP,no-resolve
 IP-CIDR,8.0.0.0/8,REJECT-DROP,no-resolve
 IP-CIDR,9.0.0.0/8,REJECT-DROP,no-resolve
 
+IP-CIDR,10.0.0.0/8,REJECT-DROP,no-resolve
 IP-CIDR,11.0.0.0/8,REJECT-DROP,no-resolve
 IP-CIDR,12.0.0.0/8,REJECT-DROP,no-resolve
 IP-CIDR,13.0.0.0/8,REJECT-DROP,no-resolve
