@@ -3,3 +3,4 @@
 #W#
 #WEIBO_微博#
 AND,((DOMAIN,api.weibo.cn),(DEST-PORT,443))
+AND,((DOMAIN,api.weibo.com),(DEST-PORT,443))
