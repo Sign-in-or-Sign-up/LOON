@@ -16,6 +16,7 @@ AND,((DOMAIN,tvax1.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,tvax2.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,tvax3.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,tvax4.sinaimg.cn),(DEST-PORT,443))
+URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-z]{32}\.jpg$"
 AND,((DOMAIN,wx1.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,wx2.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,wx3.sinaimg.cn),(DEST-PORT,443))
@@ -28,10 +29,10 @@ DOMAIN,tvax1.sinaimg.cn
 DOMAIN,tvax2.sinaimg.cn
 DOMAIN,tvax3.sinaimg.cn
 DOMAIN,tvax4.sinaimg.cn
-DOMAIN,wx1.sinaimg.cn
-DOMAIN,wx2.sinaimg.cn
-DOMAIN,wx3.sinaimg.cn
-DOMAIN,wx4.sinaimg.cn
+#DOMAIN,wx1.sinaimg.cn
+#DOMAIN,wx2.sinaimg.cn
+#DOMAIN,wx3.sinaimg.cn
+#DOMAIN,wx4.sinaimg.cn
 ##视频
 AND,((DOMAIN,f.video.weibocdn.com),(DEST-PORT,80))
 DOMAIN,f.video.weibocdn.com
