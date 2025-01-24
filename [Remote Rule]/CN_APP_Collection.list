@@ -1,6 +1,10 @@
 #国内常见app应用合集
 
 #WWW#
+#WECHAT_微信#
+#广州两个ip直连
+IP-CIDR,157.255.6.152/32,DIRECT,no-resolve
+IP-CIDR,157.255.6.202/32,DIRECT,no-resolve
 #WEIBO_微博#
 AND,((DOMAIN,api.weibo.cn),(DEST-PORT,443))
 DOMAIN,api.weibo.cn
@@ -36,3 +40,4 @@ DOMAIN,tvax4.sinaimg.cn
 ##视频
 AND,((DOMAIN,f.video.weibocdn.com),(DEST-PORT,80))
 DOMAIN,f.video.weibocdn.com
+
