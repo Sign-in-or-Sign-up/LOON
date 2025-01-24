@@ -16,7 +16,7 @@ AND,((DOMAIN,tvax1.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,tvax2.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,tvax3.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,tvax4.sinaimg.cn),(DEST-PORT,443))
-URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-z]{32}\.jpg$"
+URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{32}\.jpg$"
 AND,((DOMAIN,wx1.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,wx2.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,wx3.sinaimg.cn),(DEST-PORT,443))
