@@ -30,6 +30,7 @@ URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/orj480\/[0-9a-zA-Z]{34}\.jpg$"
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/orj480\/[0-9a-zA-Z]{32}\.jpg$"
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{34}\.jpg$"
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{32}\.jpg$"
+URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/sti960\/[0-9a-zA-Z]{32}\.gif$"
 #AND,((DOMAIN,wx1.sinaimg.cn),(DEST-PORT,443))
 #AND,((DOMAIN,wx2.sinaimg.cn),(DEST-PORT,443))
 #AND,((DOMAIN,wx3.sinaimg.cn),(DEST-PORT,443))
