@@ -20,6 +20,7 @@ AND,((DOMAIN,tvax1.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,tvax2.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,tvax3.sinaimg.cn),(DEST-PORT,443))
 AND,((DOMAIN,tvax4.sinaimg.cn),(DEST-PORT,443))
+URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/large\/[0-9a-zA-Z]{34}\.jpg$"
 URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{34}\.jpg$"
 URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{32}\.jpg$"
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/orj1080\/[0-9a-zA-Z]{34}\.jpg$"
@@ -32,7 +33,7 @@ URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{34}\.jpg$"
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{32}\.jpg$"
 URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{32}\.gif$"
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/sti960\/[0-9a-zA-Z]{32}\.gif$"
-URL-REGEX,"^^http:\/\/t\.cn\/[0-9a-zA-Z]{8}$"
+#URL-REGEX,"^^http:\/\/t\.cn\/[0-9a-zA-Z]{8}$"
 #AND,((DOMAIN,wx1.sinaimg.cn),(DEST-PORT,443))
 #AND,((DOMAIN,wx2.sinaimg.cn),(DEST-PORT,443))
 #AND,((DOMAIN,wx3.sinaimg.cn),(DEST-PORT,443))
