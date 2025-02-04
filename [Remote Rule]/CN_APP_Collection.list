@@ -18,6 +18,7 @@ URL-REGEX,"^https:\/\/tva[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d
 #AND,((DOMAIN,tva2.sinaimg.cn),(DEST-PORT,443))
 #AND,((DOMAIN,tva3.sinaimg.cn),(DEST-PORT,443))
 #AND,((DOMAIN,tva4.sinaimg.cn),(DEST-PORT,443))
+URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{3,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{16}$"
 URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{3,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$"
 URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{3,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$"
 URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{3,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$"
