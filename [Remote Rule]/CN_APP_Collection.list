@@ -37,6 +37,7 @@ URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_ma
 #AND,((DOMAIN,tvax3.sinaimg.cn),(DEST-PORT,443))
 #AND,((DOMAIN,tvax4.sinaimg.cn),(DEST-PORT,443))
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/large\/[0-9a-zA-Z]{34}\.jpg$"
+URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/large\/[0-9a-zA-Z]{32}\.jpg$"
 URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{34}\.jpg$"
 URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{32}\.jpg$"
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/orj1080\/[0-9a-zA-Z]{34}\.jpg$"
