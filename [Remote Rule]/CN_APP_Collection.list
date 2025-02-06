@@ -59,7 +59,7 @@ URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{32}\.gif$"
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_h_orj1080\.gif$"
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_h_orj960\.gif$"
 URL-REGEX,"^http:\/\/g\.us\.sinaimg\.cn\/o0\/[0-9a-zA-Z]{20}01041200[0-9a-zA-Z]{4}0E010\.mp4\?label=gif_mp4&template=\d{3,4}x\d{3,4}\.28\.0&ssig=[0-9a-zA-Z%]{10}&Expires=\d{10}&KID=unistore,video$"
-#URL-REGEX,"^^https:\/\/video\.weibo\.com\/media\/play\?livephoto=^https%3A%2F%2Fus\.sinaimg\.cn%2F00[0-9a-zA-Z]{30}0k01\.mov$"
+URL-REGEX,"^^https:\/\/video\.weibo\.com\/media\/play\?livephoto=^https%3A%2F%2Fus\.sinaimg\.cn%2F00[0-9a-zA-Z]{30}0k01\.mov$"
 #URL-REGEX,"^http:\/\/t\.cn\/[0-9a-zA-Z]{8}$"
 #AND,((DOMAIN,wx1.sinaimg.cn),(DEST-PORT,443))
 #AND,((DOMAIN,wx2.sinaimg.cn),(DEST-PORT,443))
