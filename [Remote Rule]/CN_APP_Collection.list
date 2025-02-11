@@ -70,6 +70,7 @@ URL-REGEX,"^https:\/\/livephoto\.us\.sinaimg\.cn\/00[A-Za-z0-9]{6}(gx|jx)[A-Za-z
 URL-REGEX,"^https:\/\/livephoto\.us\.sinaimg\.cn\/00[A-Za-z0-9]{4}(gx|jx)[A-Za-z0-9]{10}0f0f0100[A-Za-z0-9]{4}0k01\.mov\?Expires=\d{10}&ssig=[A-Za-z0-9%]{14}&KID=unistore,video$"
 URL-REGEX,"^https:\/\/livephoto\.us\.sinaimg\.cn\/00[A-Za-z0-9]{4}(gx|jx)[A-Za-z0-9]{10}0f0f0100[A-Za-z0-9]{4}0k01\.mov\?Expires=\d{10}&ssig=[A-Za-z0-9%]{12}&KID=unistore,video$"
 URL-REGEX,"^https:\/\/livephoto\.us\.sinaimg\.cn\/00[A-Za-z0-9]{4}(gx|jx)[A-Za-z0-9]{10}0f0f0100[A-Za-z0-9]{4}0k01\.mov\?Expires=\d{10}&ssig=[A-Za-z0-9%]{10}&KID=unistore,video$"
+#URL-REGEX,"^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_1\d{9}_[1-9]_cover\.jpg$"//微博vip等级贺图
 #URL-REGEX,"^http:\/\/t\.cn\/[0-9a-zA-Z]{8}$"
 #AND,((DOMAIN,wx1.sinaimg.cn),(DEST-PORT,443))
 #AND,((DOMAIN,wx2.sinaimg.cn),(DEST-PORT,443))
